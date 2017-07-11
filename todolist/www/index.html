@@ -1,0 +1,62 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Tasks</title>
+	<link rel="stylesheet" href="jquery.mobile-1.0.1.css" />
+	<script src="jquery-1.6.4.js"></script>
+	<script src="jquery.mobile-1.0.1.js"></script>
+	<script language="javascript" type="application/javascript">
+
+		function getTasks() {
+			var tasks = [];
+			tasks = JSON.parse(localStorage.taskList);
+			displayTasks(tasks);
+		}
+		
+		function displayTasks(tasks) {
+			var html = "";
+			for(var i = 0; i < tasks.length; i++) {
+				html += "<tr><td><a href='#' onClick='delTask(" + i + ");'>X</a></td>";
+				html += "<td>" + tasks[i] + "</td></tr>";
+			};
+			
+			$('#tasks').empty();            
+			$('#tasks').append(html);
+		}
+
+		function delTask(num){
+			var tasks = JSON.parse(localStorage.taskList);
+			if(num>=0){
+				tasks.splice(num,1);
+				localStorage.taskList = JSON.stringify(tasks);
+			}
+			displayTasks(tasks);
+		}
+
+		function addTask(){
+			var message = prompt("Enter a new task:");
+			var tasks = JSON.parse(localStorage.taskList);
+			if(message) {
+				tasks.push(message);
+				localStorage.taskList = JSON.stringify(tasks);
+			}
+			displayTasks(tasks);
+		}
+
+	</script>
+</head>
+<body onload="getTasks();">
+	<div data-role="page">
+		<div data-role="header">
+			<h1>Task List</h1>    
+		</div>
+		<div data-role="content">
+			<table id="tasks"></table>
+			<input type="button" id="add" value="Add" onclick="addTask();" data-theme="b" />
+		</div>
+		<div data-role="footer">
+			<h4>by Bobby Rockers</h4>
+		</div>
+	</div>
+</body>
+</html>

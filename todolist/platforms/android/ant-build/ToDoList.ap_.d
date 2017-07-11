@@ -1,0 +1,22 @@
+/home/bobby/Projects/todolist/platforms/android/ant-build/ToDoList.ap_ \
+ : /home/bobby/Projects/todolist/platforms/android/res/drawable-xhdpi/icon.png \
+/home/bobby/Projects/todolist/platforms/android/res/xml/config.xml \
+/home/bobby/Projects/todolist/platforms/android/res/drawable-hdpi/icon.png \
+/home/bobby/Projects/todolist/platforms/android/res/drawable/icon.png \
+/home/bobby/Projects/todolist/platforms/android/res/drawable-ldpi/icon.png \
+/home/bobby/Projects/todolist/platforms/android/res/values/strings.xml \
+/home/bobby/Projects/todolist/platforms/android/res/drawable-mdpi/icon.png \
+/home/bobby/Projects/todolist/platforms/android/ant-build/res/drawable-xhdpi/icon.png \
+/home/bobby/Projects/todolist/platforms/android/ant-build/res/drawable-hdpi/icon.png \
+/home/bobby/Projects/todolist/platforms/android/ant-build/res/drawable/icon.png \
+/home/bobby/Projects/todolist/platforms/android/ant-build/res/drawable-ldpi/icon.png \
+/home/bobby/Projects/todolist/platforms/android/ant-build/res/drawable-mdpi/icon.png \
+/home/bobby/Projects/todolist/platforms/android/assets/www \
+/home/bobby/Projects/todolist/platforms/android/assets/_where-is-www.txt \
+/home/bobby/Projects/todolist/platforms/android/assets/www/jquery.mobile-1.0.1.js \
+/home/bobby/Projects/todolist/platforms/android/assets/www/index.html \
+/home/bobby/Projects/todolist/platforms/android/assets/www/cordova.js \
+/home/bobby/Projects/todolist/platforms/android/assets/www/jquery-1.6.4.js \
+/home/bobby/Projects/todolist/platforms/android/assets/www/cordova_plugins.js \
+/home/bobby/Projects/todolist/platforms/android/assets/www/jquery.mobile-1.0.1.css \
+/home/bobby/Projects/todolist/platforms/android/ant-build/AndroidManifest.xml \
